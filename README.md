@@ -24,7 +24,7 @@ A boilerplate for building RESTful APIs using Express.js. This project provides 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/express-rest-api-boilerplate.git
+   git clone https://github.com/justinangeloperez327@gmail.com/express-rest-api-boilerplate.git
    cd express-rest-api-boilerplate
    ```
 
