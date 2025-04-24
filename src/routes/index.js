@@ -13,6 +13,6 @@ const userRoutes = require("./userRoutes");
 
 // // Use routes
 router.use("/auth", authRoutes);
-// router.use("/users", userRoutes);
+router.use("/users", userRoutes);
 
 module.exports = router;
