@@ -1,5 +1,5 @@
-require("./src/utils/env");
-const errorHandler = require("./src/utils/errorHandlers");
+require("./utils/env");
+const errorHandler = require("./utils/errorHandlers");
 
 const express = require("express");
 const dotenv = require("dotenv");
@@ -7,7 +7,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const helmet = require("helmet");
 
-const connectDB = require("./src/config/database");
+const connectDB = require("./config/database");
 connectDB();
 const app = express();
 dotenv.config();
