@@ -74,7 +74,8 @@ express-rest-api-boilerplate/
 ├── src/
 │   ├── routes/         # API routes
 │   ├── controllers/    # Route handlers
-│   ├── middlewares/    # Custom middleware
+│   ├── models/         # Models
+│   ├── middleware/     # Custom middleware
 │   ├── utils/          # Utility functions
 │   └── app.js          # Express app configuration
 ├── .env                # Environment variables
