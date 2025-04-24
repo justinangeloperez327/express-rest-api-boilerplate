@@ -13,8 +13,8 @@ connectDB();
 
 app.use(cors());
 app.use(express.json());
-// app.use(morgan("dev"));
-// app.use(helmet());
+app.use(morgan("dev"));
+app.use(helmet());
 
 app.use("/api", require("./routes/index"));
 
