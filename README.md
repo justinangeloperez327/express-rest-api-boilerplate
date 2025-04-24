@@ -69,18 +69,18 @@ A boilerplate for building RESTful APIs using Express.js. This project provides 
 
 ### Project Structure
 
-    ```
-    express-rest-api-boilerplate/
-    ├── src/
-    │   ├── routes/         # API routes
-    │   ├── controllers/    # Route handlers
-    │   ├── middlewares/    # Custom middleware
-    │   ├── utils/          # Utility functions
-    │   └── app.js          # Express app configuration
-    ├── .env                # Environment variables
-    ├── package.json        # Project metadata and dependencies
-    └── README.md           # Project documentation
-    ```
+```
+express-rest-api-boilerplate/
+├── src/
+│   ├── routes/         # API routes
+│   ├── controllers/    # Route handlers
+│   ├── middlewares/    # Custom middleware
+│   ├── utils/          # Utility functions
+│   └── app.js          # Express app configuration
+├── .env                # Environment variables
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+```
 
 ## Contributing
 
